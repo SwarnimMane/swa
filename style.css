@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    /* font-family: "Oswald", sans-serif; */
+    cursor: none;
+    overflow: hidden;
+}
+
+.page1 {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* background-color: #0F172A; */
+    background: rgb(27,40,73);
+    background: radial-gradient(circle, rgba(27,40,73,1) 0%, rgba(15,23,42,1) 100%);
+    padding: 40px 60px;
+    overflow: hidden;
+}
+
+.navbar {
+    position: relative;
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 30px; */
+
+}
+
+.links ul {
+    display: flex;
+    gap: 40px;
+    /* text-decoration: none; */
+    padding: 10px;
+}
+
+.links ul li {
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.488);
+    padding: 10px;
+    border-radius: 65px;
+
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.part2 {
+    height: 83%;
+    overflow: hidden;
+    width: 100%;
+    /* background-color: #0F172A; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 .center {
+    padding-bottom: 20vh;
+    text-align: center;
+}
+
+.part2 .center h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+}
+
+.part2 .center h1 span {
+    font-weight:700;
+}
+
+.part2 .center h3 {
+    font-weight: 100;
+}
+.part2 .center h4 {
+    font-weight: 300;
+}
+
+.para {
+    margin: 18px 0;
+}
+
